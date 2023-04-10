@@ -1,0 +1,96 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  align-items: center;
+
+  background: #FFFFFF;
+  color: #828282;
+  margin: 0px 0px;
+
+  
+}
+
+
+main {
+  margin-bottom: 240px;
+  padding-top: 64px;
+ 
+  align-items: center;
+  width: 626px;
+  height: 486px;
+  margin: 0 auto;
+  
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.text{
+  width: 540px;
+  left: 249px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+h1{
+  color: #3F3D56;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  
+}
+
+main img {
+  width: 350px;
+  height: 238px;
+ 
+  top: 64px;
+  
+}
+
+
+
+.text h1 span {
+  color: #EE24FF;
+}
+
+.text span {
+  color: #3F3D56;
+  font-weight: 800;
+
+}
+
+.ofertas {
+  margin-top: 32px;
+}
+
+footer{
+   margin-top: 64px;
+   margin-bottom: 0px;
+   
+  
+}
+
+ul {
+  align-items: center;
+  list-style: none;
+  display: inline-flex;
+  
+  margin-right: 100px;
+
+  gap: 42px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #3F3D56;
+  
+}
+
+
+.line{
+  margin-left: 0px;
+  padding-right: 100px;
+}
+
