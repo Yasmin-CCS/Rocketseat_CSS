@@ -1,0 +1,102 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #C2C2C2;
+  background: #2F2E41;
+  
+}
+
+#page{
+  margin: 78px 98px auto 99px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'JetBrains Mono', monospace;
+
+  gap:30px ;
+
+  width: 1083px;
+  height: 30px;
+  
+
+}
+
+main{
+  display: flex;
+  margin-top: 101px;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+  list-style: none;
+}
+
+.paragrafo1 {
+  margin: auto 24px auto 29px;
+}
+
+
+
+main div {
+  
+  left:0px;
+  line-height: 28px;
+  font-size: 16px;
+  
+  font-weight: 400px;
+  margin-left: 82px;
+  margin-right: 0px;
+  
+}
+
+div h1{
+  color: #FFFFFF;
+  font-family: 'JetBrains Mono';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  margin: auto 0px 59px 0px;
+  
+}
+
+
+
+span {
+   color: #00BFA6;
+   font-weight: 700;
+}
+
+footer{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 157px auto 23px auto;
+  
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+}
+
+.line{
+  border: 1px solid #00BFA6;
+  width: 568px;
+  margin-bottom: 14px;
+}
+
+a{
+  color: #C2C2C2;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #afaeae;
+}
+
+#padlock-decoration {
+  position: fixed;
+  left:20px;
+  bottom: 20px;
+}
