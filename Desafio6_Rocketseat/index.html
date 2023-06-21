@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Mentoria</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Mentoria
+    </h1>
+    <p>
+      Preencha o formulário abaixo para agendar a sua mentoria 
+    </p>
+
+  </header>
+
+
+  <form id="forms">
+
+    <fieldset>
+    
+      <legend> Informações Pessoais</legend>
+      <div class="nomes">
+        <div class="field-section">
+          <label for="nome">Nome</label>
+          <input
+          type="text"
+          id="nome"
+          required
+          minlength="3"/>
+        </div>
+
+        <div class="field-section">
+          <label for="sobrenome">Sobrenome</label>
+          <input
+          type="text"
+          id="sobrenome"
+          required
+          minlength="3"/>
+        </div>
+      </div>
+
+      <div class="field-section">
+        <label for="email">E-mail<span> (digite um e-mail válido)</span></label>
+          <input
+          type="text"
+          id="email"
+          required
+          minlength="3"/>
+      </div>
+      
+      <div class="field-section">
+        <label for="senha">Senha<span> (minimo de 8 caracteres)</span></label>
+          <input
+          type="password"
+          id="email"
+          required
+          minlength="3"/>
+      </div>         
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações do Mentor</legend>
+      
+      <div class="field-section">  
+        <label for="nome-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+        <input
+        type="text"
+        id="nome-mentor"
+        required
+        minlength="3"/>
+        </div>    
+    
+    </fieldset>
+
+    <fieldset>
+    
+      <legend>Seus horarios disponíveis</legend>
+      
+        <h2>Primeira Mentoria</h2>
+        
+      <div class="date">
+        <div class="field-section"> 
+          <label for="data">Data <span>(DD/MM/AAAA)</span></label>
+          <input
+          class="inputsdecoration"
+          type="date"
+          id="data1"
+          required/>
+        </div>
+
+        <div class="field-section">
+          <label for="inicio1">Das</label>
+          <input
+          class="inputsdecoration"
+          type="time"
+          id="inicio1"
+          required/>
+        </div>
+
+        <div class="field-section">
+          <label for="final1">Até</label>
+          <input
+          class="inputsdecoration"
+          type="time"
+          id="final1"
+          required/>
+        </div>
+      </div>
+      
+      <h2>Segunda Mentoria</h2>
+
+      <div class="date">
+        <div class="field-section"> 
+        <label for="data">Data <span>(DD/MM/AAAA)</span></label>
+        <input
+        class="inputsdecoration"
+        type="date"
+        id="data1"
+        required/>
+        </div>
+
+        <div class="field-section">
+        <label for="inicio1">Das</label>
+        <input
+        class="inputsdecoration"
+        type="time"
+        id="inicio1"
+        required/>
+        </div>
+
+        <div class="field-section">
+        <label for="final1">Até</label>
+        <input
+        class="inputsdecoration"
+        type="time"
+        id="final1"
+        value=""
+        required/>
+        </div>
+      </div>
+    </fieldset>
+      
+    </div>
+
+
+  </form>
+
+  <footer>
+    <button>
+      SALVAR
+    </button>
+  </footer>
+
+</body>
+</html>

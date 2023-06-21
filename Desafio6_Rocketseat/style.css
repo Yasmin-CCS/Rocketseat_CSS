@@ -1,0 +1,186 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  margin:0px;
+  background-color: #EFEFEF;
+}
+
+body::before{
+  content:'';
+  width:1440px;
+  height:436px;
+  
+  position: absolute;
+  background: #535971;
+  margin: 0px;
+  z-index:-1;
+  
+}
+
+header{
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 345px;
+  
+}
+
+h1{
+  margin: 0px 0px 18px 0px;
+  padding-top: 140px;
+  font-family: 'Staatliches', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;  
+}
+
+p {
+  margin-bottom: 58px;
+  width: 417px;
+  font-size: 20px;
+}
+
+legend, h2{
+  font-family: 'Staatliches', cursive;
+  color: #535971;
+  font-size: 24px;
+  line-height: 34px;
+  
+}
+
+legend {
+  margin-bottom: 32px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E6E6F0;
+  width: 100%;
+}
+
+button {
+  font-family: 'Staatliches', cursive;
+  color: #FFFFFF;
+  
+  border: 0px;
+  background-color: #FF5374;
+}
+
+#forms{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #4E4958;
+
+  background-color: white;
+}
+
+#forms span{
+  color: #C1BCCC;
+  font-size: 12px;
+}
+
+#forms h2 {
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+form{
+  width: 750px;
+  height: 1084px;
+  left: 345px;
+  border-radius: 20px 20px 0px 0px;
+  /*margin: 322px, 345px, 0px, 345px;*/
+  margin-left: 345px;
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+}
+
+.field-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border:none;
+}
+
+.nomes {
+  display: flex;
+  
+  
+  gap: 22px;
+}
+
+.nomes input{
+  width: 300px;
+  
+  
+}
+
+.date {
+  display: flex;
+  width: 100%;
+  
+  gap: 10px;
+}
+
+
+input{
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  height: 56px;
+
+  appearance: none;
+  
+}
+
+.date >:nth-child(1) input{
+  width: 300px;
+  margin-right: 22px;
+}
+
+.date input{
+  width: 140px;
+}
+
+.inputsdecoration{
+  color:#615d5ebe;
+  text-align: center;
+}
+
+footer {
+  background: #535971;
+  width: 750px;
+
+  text-align: center;
+
+  padding: 64px;
+
+  margin: auto auto 366px 345px;
+  border-radius: 0px 0px 20px 20px;
+
+}
+button {
+  font-size: 20px;
+  line-height: 26px;
+
+  margin: 52px, 71px;
+  border-radius: 20px;
+
+  width: 608px;
+  height: 55.65px;
+}
