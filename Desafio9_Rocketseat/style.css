@@ -1,0 +1,352 @@
+body{
+  --animation-duration: 1s;
+  --animation-timing-function:cubic-bezier(1, 0, 0, 1) ;
+  --animation-iteration-count: none;
+  --animation-fill-mode: forwards ;
+  --delayum: calc(var(--animation-duration)*100%);
+  --delaydois: calc(var(--animation-duration)*80%) 
+  --delaytres: calc(var(--animation-duration)*60%) 
+  --delayquatro: calc(var(--animation-duration)*40%) 
+  --delaycinco: calc(var(--animation-duration)*20%) 
+
+}
+
+body{
+  background-image:url('./assets/fundo.svg');
+
+}
+
+.grama{
+  margin: 15% 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  
+  
+}
+
+.buraco{
+  position: relative;
+
+}
+
+.posabs{
+  position: absolute;
+  
+}
+
+
+
+.um{
+  animation: um;
+  /* animation: show; */
+  animation-delay:calc(var(--animation-duration)*100%);
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: backwards !important;
+}
+
+.dois{
+  animation: dois;
+  /* animation: show; */
+  animation-delay:calc(var(--animation-duration)*80%);
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+.tres{
+  animation: tres;
+  /* animation: show; */
+  animation-delay:calc(var(--animation-duration)*60%);
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+.quatro{
+  animation: quatro;
+  /* animation: show; */
+  animation-delay:calc(var(--animation-duration)*40%);
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+.cinco{
+  animation: cinco;
+  /* animation: show; */
+
+  animation-delay:calc(var(--animation-duration)*20%)  ;
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+.seis{
+  animation: seis;
+  
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: backwards;
+}
+
+
+.buraco2um{
+  animation: um;
+  opacity:0;
+  /* animation: show; */
+  animation-delay:calc(var(--animation-duration)*5.00);
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: backwards;
+}
+
+.buraco2dois{
+  animation: dois;
+  opacity:0;
+  /* animation: show; */
+  animation-delay:calc(var(--animation-duration)*4.80);  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+.buraco2tres{
+  animation: tres;
+  opacity:0;
+  /* animation: show; */
+  animation-delay:calc(var(--animation-duration)*4.60);
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+.buraco2quatro{
+  animation: quatro;
+  opacity:0;
+  /* animation: show; */
+  animation-delay:calc(var(--animation-duration)*4.40);
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+.buraco2cinco{
+  animation: cinco;
+  /* animation: show; */
+  opacity:0;
+  animation-delay:calc(var(--animation-duration)*4.20)  ;
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+.buraco2seis{
+  animation: seis;
+  animation-delay: calc(var(--animation-duration)*4.00)  ;
+  animation-duration: 2s;
+  animation-timing-function: var(--animation-timing-function);
+  animation-iteration-count: var(--animation-iteration-count);
+  animation-fill-mode:backwards;
+}
+
+
+
+@keyframes seis{
+  0%{
+    opacity: 1;
+  }
+
+  16.6%{
+    opacity:1;
+  }
+
+  33.2%{
+    opacity: 0;
+  }
+
+
+  49.85%{
+    opacity: 0;
+  }
+
+  66.50%{
+    opacity: 0;
+  }
+
+  84%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes cinco{
+  0%{
+    opacity: 0;
+  }
+
+  16.6%{
+    opacity:0;
+  }
+
+  33.2%{
+    opacity: 1;
+  }
+
+  49.85%{
+    opacity: 0;
+  }
+
+  49.85%{
+    opacity: 0;
+  }
+
+  66.50%{
+    opacity: 0;
+  }
+
+  84%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes quatro{
+  0%{
+    opacity: 0;
+  }
+
+  16.6%{
+    opacity:0;
+  }
+
+  33.2%{
+    opacity: 0;
+  }
+
+  49.85%{
+    opacity: 1;
+  }
+
+  66.50%{
+    opacity: 0;
+  }
+
+  84%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes tres{
+  0%{
+    opacity: 0;
+  }
+
+  16.6%{
+    opacity:0;
+  }
+
+  33.2%{
+    opacity: 0;
+  }
+
+  49.85%{
+    opacity: 0;
+  }
+
+
+  66.50%{
+    opacity: 1;
+  }
+
+  84%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes dois{
+  0%{
+    opacity: 0;
+  }
+
+  16.6%{
+    opacity:0;
+  }
+
+  33.2%{
+    opacity: 0;
+  }
+
+  49.85%{
+    opacity: 0;
+  }
+
+  66.50%{
+    opacity: 0;
+  }
+
+  84%{
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes um{
+  0%{
+    opacity: 0;
+  }
+
+  16.6%{
+    opacity:0;
+  }
+
+  33.2%{
+    opacity: 0;
+  }
+
+  49.85%{
+    opacity: 0;
+  }
+
+  66.50%{
+    opacity: 0;
+  }
+
+  84%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+ 
+
